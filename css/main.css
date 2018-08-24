@@ -1,0 +1,123 @@
+/****Base Styles***/
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*****Grid***/
+.full-width {
+  width: 100%;
+  margin: 0 auto;
+}
+.half-width {
+  width: 50%;
+  float: left;
+}
+.third-width {
+  border-top: 2px solid #ebebe0;
+  border-bottom: 2px solid #e0e0d1;
+  float: left;
+  padding-top: 20px;
+  width: 30%;
+  height: 280px;
+}
+
+/***Header***/
+header {
+  height: 110px;
+}
+h1{
+    font-size: 36px;
+    padding-left: 4%
+}
+h1 span {
+  color: #77a456;
+}
+nav{
+  float: right;
+  padding-top: 10px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    color: #828282;
+    padding-left: 25px;
+}
+/***picture frame***/
+
+#hero-image img {
+  border-top: 3px solid  #77a456;
+  border-bottom: 3px solid  #77a456;
+  clear: both;
+  height: auto;
+  margin-left: 2%;
+  margin-right: 2%;
+  }
+/****About***/
+#about {
+  height: 200px;
+}
+h2, h4 {
+  color: #77a456;
+  font-size: 24px;
+  line-height: 50%;
+  padding-left: 2%;
+  text-transform: uppercase;
+}
+p {
+  font-size: 18px;
+  line-height: 150%;
+  margin: 0;
+}
+p {
+  padding: 2%;
+  padding-right: 2%;
+}
+h3{
+  font-size: 14px;
+  text-transform: uppercase;
+}
+/***Menu***/
+#menu {
+  padding-left: 2%;
+}
+#menu ul{
+
+  color: #77a456;
+  line-height: 200%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+/***Reviews***/
+#reviews .third-width {
+  padding-left: 2%;
+  padding-right: 2%;
+  border-left: 2px solid #e0e0d1;
+  border-right: 2px solid #e0e0d1;
+}
+#locations .third-width {
+  padding-left: 2%;
+}
+/***Footer***/
+footer {
+  padding-top: 10px;
+  clear: left;
+  text-align: center;
+}
+h4 {
+  color: black;
+
+}
+h4 span {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  color: #77a456;
+  text-transform: none;
+}
+.review-text {
+  padding: 10%
+}
